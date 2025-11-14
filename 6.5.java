@@ -8,7 +8,6 @@ class A extends Marks {
         mark2 = m2;
         mark3 = m3;
     }
-    @Override
     double getPercentage() {
         return (mark1 + mark2 + mark3) / 3.0;
     }
@@ -21,7 +20,6 @@ class B extends Marks {
         mark3 = m3;
         mark4 = m4;
     }
-    @Override
     double getPercentage() {
         return (mark1 + mark2 + mark3 + mark4) / 4.0;
     }
@@ -34,3 +32,4 @@ public class exp6_5 {
         System.out.println("Percentage of Student B: " + studentB.getPercentage() + "%");
     }
 }
+
