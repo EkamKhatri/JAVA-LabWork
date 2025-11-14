@@ -26,10 +26,12 @@ class B extends Marks {
 }
 public class exp6_5 {
     public static void main(String[] args) {
+        System.out.print("Ekam Khatri, 24csu335\n");
         A studentA = new A(85, 90, 95);
         B studentB = new B(70, 75, 80, 85);
         System.out.println("Percentage of Student A: " + studentA.getPercentage() + "%");
         System.out.println("Percentage of Student B: " + studentB.getPercentage() + "%");
     }
 }
+
 
